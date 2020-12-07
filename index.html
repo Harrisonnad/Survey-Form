@@ -1,0 +1,60 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" type="stylesheets" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>freeCodeCampe Survey Form</h1>
+      <p>Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <main>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your Email" />
+        <label for="number">Age(optional)</label>
+        <input type="number" id="number" placeholder="0" />
+        <label for="roles"
+          >Which option best describes your current role?</label
+        >
+        <select id="roles" name="roles">
+          <option value="" disabled selected>Select current role</option>
+          <option value="Student">Student</option>
+          <option value="Full Time Job">Full Time Job</option>
+          <option value="Full Time Learner">Full Time Learner</option>
+          <option value="Other">Other</option>
+          <option value="PreferNotToSay">Prefer Not To Say</option>
+        <label for="recommend">Would you recommend freeCodeCamp to a friend></label>
+        <input type="radio" id="recommend" name="definitely">Definitely</input>
+        <input type="radio" id="recommend" name="maybe">Maybe</input>
+        <input type="radio" id="recommend" name="notSure">Not Sure</input>
+        <label for="favorite"
+          >What is your favorite feature on freeCodeCamp?</label
+        >
+        <select id="favorite" name="favorite">
+          <option value="" disabled selected>Select an option</option>
+          <option value="Challenges">Challenges</option>
+          <option value="Prjoects">Projects</option>
+          <option value="Community">Community</option>
+          <option value="Opensource">Opensource</option>
+        <label for="improvements">What would you lidto see improved?nameCheck all that apply)</label>
+          <input type="checkbox" id="improvements" name="frontend">Front-end Projects</input>
+          <input type="checkbox" id="improvements" name="Back-end">Back-end Projects</input>
+          <input type="checkbox" id="improvements" name="Data">Data Visualization</input>
+          <input type="checkbox" id="improvements" name="Challenges">Challenges</input>
+          <input type="checkbox" id="improvements" name="Opensource">Open Source Community</input>
+          <input type="checkbox" id="improvements" name="Gitter">Gitter help rooms</input>
+          <input type="checkbox" id="improvements" name="Videos">Videos</input>
+          <input type="checkbox" id="improvements" name="Meetups">City Meetups</input>
+          <input type="checkbox" id="improvements" name="Wiki">Wiki</input>
+          <input type="checkbox" id="improvements" name="Forum">Forum</input>
+          <input type="checkbox" id="improvements" name="Courses">Additional Courses</input>
+
+      </form>
+    </main>
+  </body>
+</html>
