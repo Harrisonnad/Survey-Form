@@ -1,0 +1,11 @@
+main {
+    border-radius: 10px;
+}
+
+.whiteText {
+    color: white;
+}
+
+input {
+    display: block;
+}
