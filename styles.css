@@ -22,3 +22,10 @@ form {
   padding: auto;
   margin: auto;
 }
+#title {
+  margin-top: 20px;
+}
+#bulk {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
